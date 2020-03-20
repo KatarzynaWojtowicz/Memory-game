@@ -1,0 +1,83 @@
+body
+{
+	margin: 0;
+	background-color: black;
+	color: #C5919D;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: #2096BA; text-decoration: none; }
+a:visited { color: #2096BA; }
+a:active  { color: #2096BA; }
+a:hover   { color: #C5919D; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 250px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/revers.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	transition: all .3s ease-in-out;
+}
+
+.card-hidden
+{
+	background-position: 30%;
+	border: 4px solid #51c8b2;
+	cursor: pointer;
+	filter: brightness(70%);
+}
+
+.card-face-up
+{
+	border: 4px solid #C5919D;
+	cursor: default;
+	filter: brightness(100%);
+}
+
+.card:hover
+{
+	border: 4px solid #C5919D;
+	filter: brightness(100%);
+}
+
+.score
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+
